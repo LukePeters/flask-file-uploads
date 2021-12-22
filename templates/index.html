@@ -12,14 +12,19 @@
 
     <div class="form-section">
 
-      <!-- Form will go here -->
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+      </form>
 
     </div>
 
     <div class="images-section">
-
-      <!-- Images will go here -->
-      
+      {% for image in images %}
+        <a href="{{ url_for('serve_image', filename=image) }}" target="_blank">
+          <img src="{{ url_for('serve_image', filename=image) }}"/>
+        </a>
+      {% endfor %}
     </div>
     
   </div>

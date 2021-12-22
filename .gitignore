@@ -1,3 +1,4 @@
 Pipfile.lock
+uploads/*
 *.pyc
 .DS_Store

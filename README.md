@@ -15,4 +15,5 @@ You can find code for the completed tutorial in the `completed-tutorial` branch 
 In your terminal, enter these two commands:
 
 `export FLASK_APP=app`
+
 `flask run`

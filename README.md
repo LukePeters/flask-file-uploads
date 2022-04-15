@@ -9,3 +9,10 @@ You can find the CSS file in the `static/` directory or just click here: [https:
 ## Completed Code
 
 You can find code for the completed tutorial in the `completed-tutorial` branch here: [https://github.com/LukePeters/flask-file-uploads/tree/completed-tutorial](https://github.com/LukePeters/flask-file-uploads/tree/completed-tutorial)
+
+## How to Run the App
+
+In your terminal, enter these two commands:
+
+`export FLASK_APP=app`
+`flask run`

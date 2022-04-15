@@ -26,6 +26,8 @@ You can find code for the completed tutorial in the `completed-tutorial` branch 
 
 ### Start Flask
 
+Enter these two commands in your terminal:
+
 `export FLASK_APP=app`
 
 `flask run`
